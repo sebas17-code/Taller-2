@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="author" content="Sebastian Monsalve">
+    <meta name="description" content="Taller 2 - Contenido multimedia">
+    <meta name="theme-color" content="#1f4ea8">
+    
+    <title>Taller 2 - Audio y Video</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+
+<body>
+
+    <div class="wrapper">
+
+        <header class="header">
+            <h1>Taller 2</h1>
+        </header>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="./">Inicio</a></li>
+                <li><a href="index_Cv.html">Cv</a></li>
+                <li><a href="grid.html">Grid</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a href="Multimedia.html">Multimedia</a></li>
+            </ul>
+        </nav>
+
+        <main class="main">
+            <article class="article">
+                <h2>Multimedia</h2>
+                <p>Esta es una bienvenida a mi taller 2</p>
+                
+                <div class="container-grid">
+                    
+                    <div class="col-audio-titulo">
+                        <h3>uso de etiqueta <code>&lt;Audio&gt;Tag</code> con un archivo local</h3>
+                    </div>
+                    
+                    <div class="col-espacio-titulo">
+                        <h3>uso de etiqueta<code>&lt;Video&gt;Tag </code>con un archivo local</h3>
+                    </div>
+                  
+                    <div class="audio-1">
+                        <h3>Audio local</h3>
+                        <audio controls style="width: 100%;">
+                            <source src="assets/audio/Oh-Qué-Será.mp3" type="audio/mpeg">
+                            Tu navegador no soporta el elemento de audio.
+                        </audio>
+                    </div>
+
+                    <div class="audio-2">
+                        <h3>Audio nube</h3>
+                        <audio controls style="width: 100%; ">
+                            <source src="https://media.vocaroo.com/mp3/17i5utp3VnS5" type="audio/mpeg">
+                            Tu navegador no soporta el elemento de audio
+                        </audio>
+                    </div>
+                    
+                    <div class="video-1">
+                        <h3>Video Local</h3>
+                        <video controls style="width: 100%; border-radius: 4px;">
+                            <source src="assets/video/video.mp4" type="video/mp4">
+                            Tu navegador no soporta el elemento de video.
+                        </video>
+                    </div>
+
+                    <div class="video-2">
+                        <h3>Video Nube</h3>
+                        <iframe 
+                      width="100%"
+                       height="225"
+                      src="https://www.youtube.com/embed/7ZkQjdG1vnM" 
+                      title="Zion - Fantasma" 
+                      style="border: 0;"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                      allowfullscreen>
+                      </iframe>
+
+                    </div>
+
+                </div>
+            </article>
+        </main>
+
+        <footer class="footer">
+            <p>Sebastian Monsalve. Todos los derechos reservados &copy; 2026.</p>
+        </footer>
+
+    </div>
+</body>
+</html>
